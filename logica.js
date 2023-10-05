@@ -1,4 +1,4 @@
-import { validarNoNullUndefined, generarIdUnico } from "./utils.js";
+import { validarNoNullUndefined, generarIdUnico } from "./utilidades.js";
 
 export class Libro {
   constructor(titulo, autor, estado) {

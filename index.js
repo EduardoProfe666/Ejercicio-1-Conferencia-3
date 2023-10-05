@@ -1,5 +1,5 @@
 import { Libro, Libreria } from "./logica.js";
-import { probarUnicidadId } from "./utils.js";
+import { probarUnicidadId } from "./utilidades.js";
 
 //---------------- Declaración de variables -------------------//
 let libreria = new Libreria();
@@ -43,3 +43,5 @@ console.log(`\nPrueba de préstamo de libros <id: ${idLibro}>:`);
 libreria.gestionarPrestamoLibro(idLibro, true).imprimir();
 console.log(`\nPrueba de devolución de libros <id: ${idLibro}>:`);
 libreria.gestionarPrestamoLibro(idLibro, false).imprimir();
+
+console.log();
